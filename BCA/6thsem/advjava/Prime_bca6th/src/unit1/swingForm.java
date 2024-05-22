@@ -41,10 +41,9 @@ class Control extends JFrame {
 
                     if (!password.equals(cpassword)) {
                         l4.setText("Passwords do not match");
-                        return;
                     } else {
                         l4.setText("<html> Username : " + uname + "<br> Password" + password + "<br> Cpassword" + cpassword + "</html>");
-                        return;
+
                     }
 
                 } catch (NumberFormatException ex) {
