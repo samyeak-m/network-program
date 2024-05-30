@@ -7,14 +7,17 @@ import java.awt.event.*;
 class MouseMotion extends JFrame {
 
     JTextArea t1;
-    JLabel l1;
+    JTextField tf1;
+    JLabel l1,l2;
 
     public void setMouseMotion() {
 
         t1 = new JTextArea(20, 20);
-        l1 = new JLabel("Result: ");
-        add(t1);
-        add(l1);
+        l1 = new JLabel("Result motion: ");
+        tf1 = new JTextField(20);
+        l2 = new JLabel("Result for wheel: ");
+        add(t1); add(l1);
+        add(tf1);add(l2);
 
         setVisible(true);
         setSize(400, 400);
@@ -40,6 +43,15 @@ class MouseMotion extends JFrame {
             }
         });
 
+//        handing mouse wheel event in tf1
+//        this event is triggered when whell
+        tf1.addMouseWheelListener(new MouseWheelListener() {
+            @Override
+            public void mouseWheelMoved(MouseWheelEvent e) {
+                l2.setText("mouse scroll at "+e.getX()+", "+e.getY());
+
+            }
+        });
     }
 }
 

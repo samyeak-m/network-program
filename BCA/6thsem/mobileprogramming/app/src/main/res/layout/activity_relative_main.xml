@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Relative_main">
+
+    <TextView
+            android:id="@+id/textViewone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Hello World from textone!"
+            />
+
+        <TextView
+            android:id="@+id/textViewtwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewone"
+            android:layout_margin="16dp"
+            android:layout_marginEnd="32dp"
+            android:layout_toStartOf="@+id/textViewfour"
+            android:text="Hello World from texttwo!"
+            android:textColor="@color/primary" />
+
+        <TextView
+            android:id="@+id/textViewthree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-141dp"
+            android:layout_toEndOf="@+id/textViewfour"
+            android:background="#fff"
+            android:text="Hello World from textthree!"
+            android:textColor="@color/red" />
+
+        <TextView
+            android:id="@+id/textViewfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_toEndOf="@+id/textViewone"
+            android:textColor="#E3A200"
+            android:text="Hello World from textfour!"
+            />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter your input here"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/textViewtwo"
+
+        />
+
+    <EditText
+        android:id="@+id/editTexttwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:hint="Enter your input here"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/editText"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="262dp"
+        android:text="Button" />
+
+</RelativeLayout>
