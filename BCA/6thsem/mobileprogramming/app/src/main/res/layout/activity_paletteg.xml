@@ -1,10 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".paletteg">
+    tools:context=".paletteg"
+    android:background="#fff"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_text"
+        android:textSize="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/textView"
+        android:text="@string/name"
+        android:textColor="@color/black"
+        android:layout_marginStart="24dp"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/name"
+        android:text="@string/email"
+        android:textColor="@color/black"
+        android:layout_marginStart="24dp"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_below="@+id/email"
+        android:layout_marginStart="24dp"
+        android:textColor="@color/black"
+        android:text="@string/mobile"/>
+
+    <Spinner
+        android:id="@+id/emptype"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_marginStart="24dp"
+
+        />
+
+    <CheckBox
+        android:id="@+id/hourly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emptype"
+        android:layout_marginTop="24dp"
+        android:text="@string/hour"
+        android:textColor="@color/black"
+        android:layout_marginStart="24dp"
+        />
+
+    <CheckBox
+        android:id="@+id/monthly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hourly"
+        android:text="@string/monthly"
+        android:textColor="@color/black"
+        android:layout_marginStart="24dp"
+        />
+
+    <TextView
+        android:id="@+id/overtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/overtime"
+        android:textSize="24dp"
+        android:layout_below="@+id/monthly"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="24dp"
+
+
+        />
+
+    <RadioGroup
+        android:id="@+id/overtimegroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/overtime"
+        android:textColor="@color/black"
+        android:layout_marginStart="24dp"
+
+        >
+
+        <RadioButton
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="No" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/overtimegroup"
+        android:text="@string/button"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="125dp"
+        />
+
+
+</RelativeLayout>
