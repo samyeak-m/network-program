@@ -1,0 +1,83 @@
+[
+    {
+        "id":1,
+        "name": "Exhibition Management System",
+        "description": "This system helps manage accounts and budgets efficiently and provides detailed financial reports, budgeting tools, and expense tracking capabilities.",
+        "price": "$499",
+        "media": [
+            {
+                "type": "image",
+                "url": "static/img/img1.jpg"
+            },
+            {
+                "type": "video",
+                "url": "static/img/gallery.mp4"
+            },
+            {
+                "type": "image",
+                "url": "static/img/cover0.jpg"
+            },
+            {
+                "type": "video",
+                "url": "static/img/stall.mp4"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "name": "Rental Management System",
+        "description": "This system helps manage accounts and budgets efficiently and provides detailed financial reports, budgeting tools, and expense tracking capabilities.",
+        "price": "$499",
+        "image": "static/img/img1.jpg"
+    },
+    {
+        "id":3,
+        "name": "Distribution Management System",
+        "description": "This system helps manage accounts and budgets efficiently and provides detailed financial reports, budgeting tools, and expense tracking capabilities.",
+        "price": "$499",
+        "image": "static/img/img1.jpg"
+    },
+
+    {
+        "id":4,
+        "name": "Exhibition Management System",
+        "description": "This system helps manage accounts and budgets efficiently and provides detailed financial reports, budgeting tools, and expense tracking capabilities.",
+        "price": "$499",
+        "image": "static/img/img1.jpg"
+    },
+    {
+        "id":5,
+        "name": "Rental Management System",
+        "description": "This system helps manage accounts and budgets efficiently and provides detailed financial reports, budgeting tools, and expense tracking capabilities.",
+        "price": "$499",
+        "image": "static/img/img1.jpg"
+    },
+    {
+        "id":6,
+        "name": "Distribution Management System",
+        "description": "This system helps manage accounts and budgets efficiently and provides detailed financial reports, budgeting tools, and expense tracking capabilities.",
+        "price": "$499",
+        "image": "static/img/img1.jpg"
+    },
+    {
+        "id":7,
+        "name": "Exhibition Management System",
+        "description": "This system helps manage accounts and budgets efficiently and provides detailed financial reports, budgeting tools, and expense tracking capabilities.",
+        "price": "$499",
+        "image": "static/img/img1.jpg"
+    },
+    {
+        "id":8,
+        "name": "Rental Management System",
+        "description": "This system helps manage accounts and budgets efficiently and provides detailed financial reports, budgeting tools, and expense tracking capabilities.",
+        "price": "$499",
+        "image": "static/img/img1.jpg"
+    },
+    {
+        "id":9,
+        "name": "Distribution Management System",
+        "description": "This system helps manage accounts and budgets efficiently and provides detailed financial reports, budgeting tools, and expense tracking capabilities.",
+        "price": "$499",
+        "image": "static/img/img1.jpg"
+    }
+]

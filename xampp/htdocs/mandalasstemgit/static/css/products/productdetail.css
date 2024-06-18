@@ -1,0 +1,92 @@
+header{
+    background-color: var(--headcolor) !important;
+}
+
+.dropdown-content{
+    background-color: var(--headcolor) !important;
+
+}
+
+.single-product-container{
+    padding-top: 100px;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.product-card{
+    width: 70dvw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-img{
+    flex-basis: 45%;
+    display: flex;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    justify-content: start;
+    margin-inline: 0 2rem;
+    margin: 0 20px 2rem 1rem;
+}
+
+.product-detail{
+    flex-basis: 45%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    padding-top: 150px;
+    padding-left: 15px;
+}
+
+.product-name{
+    color: var(--secondarycolor);
+    font: var(--headfont);
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.product-description{
+    font: var(--parafont);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.actionbtn{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 60%;
+}
+
+.product-price{
+    font: var(--subheadfont);
+    color: var(--primarycolor);
+    font-weight: 600;
+
+}
+
+.enquire-btn{
+    background-color: var(--secondarycolor);
+    border: transparent;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font: var(--subheadfont);
+    color: var(--captioncolor);
+    cursor: pointer;
+
+}
+
+.enquire-btn:hover{
+    background-color: var(--successbutton);
+
+
+}

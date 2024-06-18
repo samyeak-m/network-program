@@ -1,0 +1,41 @@
+.center {
+    text-align: center;
+}
+
+.button,.rbutton,.sbutton{
+    font-family: 'Times New Roman', 'Times', 'serif';
+    background-color: rgb(226, 42, 42);
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+
+}
+
+.button{
+    padding: 0 12px 2px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.rbutton{
+    background-color: green;
+    cursor: pointer;
+    margin-bottom: 25px;
+
+}
+
+.rbutton:hover ,.rbutton:focus{
+    background-color: rgb(226, 42, 42);
+
+}
+#space-invaders {
+    margin: 0 auto;
+    display: block;
+    background: white;
+}

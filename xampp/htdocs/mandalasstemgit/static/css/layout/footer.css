@@ -1,0 +1,14 @@
+footer{
+    height: auto;
+    width: 100dvw;
+    background-color: var(--secondarycolor);
+    margin-top: 50px;
+}
+
+.footpara{
+    text-align: center;
+    font: var(--parafont);
+    color: var(--captioncolor);
+    padding: 20px 5px;
+
+}
