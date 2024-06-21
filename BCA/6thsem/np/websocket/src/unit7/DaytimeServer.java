@@ -1,3 +1,5 @@
+package unit7;
+
 import java.net.*;
 import java.io.*;
 import java.util.Date;
@@ -30,4 +32,7 @@ public class DaytimeServer {
                 socket.close();
             } catch (IOException ex) {
                 System.err.println(ex);
-            }}}}
+            }
+        }
+    }
+}
