@@ -208,8 +208,8 @@ public class JDBCDemo {
         j.displayData();
         j.updateData();
         j.displayData();
-        j.deleteData();
-        j.displayData();
+//        j.deleteData();
+//        j.displayData();
 
     }
 }

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FragTask">
+
+
+    <FrameLayout
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/fragtask"
+
+        />
+
+    <Button
+        android:id="@+id/fragbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="105dp"
+        android:layout_marginStart="27dp"
+        android:text="Fragement 1" />
+
+    <Button
+        android:id="@+id/fragbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="105dp"
+        android:layout_marginStart="55dp"
+        android:layout_toRightOf="@+id/fragbtn1"
+        android:text="Fragement 2" />
+
+    <Button
+        android:id="@+id/fragbtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="27dp"
+        android:text="Fragement 3" />
+
+    <Button
+        android:id="@+id/fragbtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/fragbtn3"
+        android:layout_marginBottom="27dp"
+        android:layout_marginStart="55dp"
+        android:text="Fragement 4" />
+
+
+</RelativeLayout>
