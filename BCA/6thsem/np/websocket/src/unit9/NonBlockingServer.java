@@ -14,7 +14,7 @@ public class NonBlockingServer {
     public static void main(String[] args) throws IOException {
         Selector selector = Selector.open();
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
-        serverSocketChannel.bind(new InetSocketAddress("localhost", 8080));
+        serverSocketChannel.bind(new InetSocketAddress("localhost", 8000));
         serverSocketChannel.configureBlocking(false);
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
 
